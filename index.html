@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer - First/Third Person</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        
+        <div id="controls-info">
+            <h2>Controls</h2>
+            <ul>
+                <li><strong>W/A/S/D</strong> - Move Forward/Left/Backward/Right</li>
+                <li><strong>Arrow Keys</strong> - Look Around (Rotate Camera)</li>
+                <li><strong>Mouse</strong> - Look Around (First Person)</li>
+                <li><strong>V</strong> - Toggle View (First/Third Person)</li>
+                <li><strong>Shift</strong> - Sprint (faster movement)</li>
+                <li><strong>Space</strong> - Move Up</li>
+                <li><strong>C</strong> - Move Down</li>
+            </ul>
+            <div id="view-mode">View: First Person</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/PointerLockControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

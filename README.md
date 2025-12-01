@@ -1,14 +1,14 @@
 #  3D Canteen Visualization & Real-time Interaction – Blender + Three.js
 
 ##  Project Structure
+```
 Canteen-orange-problem/
 │
 ├── index.html     # Entry point of the web application
 ├── app.js         # Main JavaScript file containing logic & controls
 ├── styles.css     # Styling file for UI elements
 └── model.glb      # 3D model used in the simulation
-
----
+```
 
 ##  How to Run the Project
 ```
